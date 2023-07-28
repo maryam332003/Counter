@@ -1,0 +1,39 @@
+.container span {
+    font-size: 50px;
+}
+
+body {
+    background-image: url(../img/pexels-josh-hild-2448749.jpg);
+    background-size: 100% 100%;
+}
+
+.box {
+    border: 4px #435651 solid;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+@media only screen and (max-width: 600px) {
+    .counter-btn {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .counter-btn .btn {
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .counter-btn {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .counter-btn .btn {
+        margin: 10px 0;
+    }
+}
